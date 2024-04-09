@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+header{
+    background-color: #33605a;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    /*color: #ffff;*/
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*iframe{
+    width: 100%;
+    height: 200px;
+}*/
+body{
+    background-color: #ffffff;
+    font-family: 'Zilla Slab';
+}
+a{
+    text-decoration: none;
+    margin-top: 205px;
+    color: #ffffff;
+}
+img{
+    margin: 1px;
+    margin-bottom: 1px;
+}
+nav{
+    margin-top: 20px;
+    background-color: #91a398;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav a{
+    margin: 15px;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #33605a;
+}
+section{
+    padding: 50px;
+    margin-left: 40px;
+    color: #262525;
+    border-bottom: 1px  #33605a solid;
+}
+section h2{
+    color: #262525;
+}
+main{
+    margin: 10px 20%; 
+}
+#habilidades ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#habilidades ol li{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #33605a;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#proyectos ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#proyectos ul a{
+    color: #262525;
+}
+#contacto form{
+    margin: 0 auto;
+    width: 500px;
+}
+#contacto form input, #contacto form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #33605a;
+    border-radius: 5px;
+    margin: 5px;
+}
+#boton input:hover{
+    background-color: #33605a;
+    color: #ffffff;
+    border: 1px #91a398 solid; 
+}
